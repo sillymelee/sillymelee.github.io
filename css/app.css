@@ -3,21 +3,76 @@ body {
 		background-color: #2F2F2F;
 }
 
-.logo{
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
 
-		-ms-flex-align: center;
-		-webkit-align-items: center;
-		-webkit-box-align: center;
+.logo img{
+	margin-top: 100pt;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-		align-items: center;
-		width: 100%;
-		height: 100%;
+.feature {
+	margin-top: 100pt;
+	background-color: #464646;
+	min-height: 400pt;
+	width: 100%;
+}
+
+
+.dl-btn {
+
+background: #DCD57B;
+border: 8px solid #2F2F2F;
+border-radius: 21px;
+height: 100pt;
+margin: 0 auto;
+/* DOWNLOAD: */
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 24px;
+color: #2F2F2F;
+letter-spacing: 4px;
+text-align: center;
+vertical-align: middle;
+line-height: 90pt;       /* the same as your div height */
+
+}
+h1{
+
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 24px;
+
 
 }
 
-.logo img{
+
+p{
+	font-family: 'Open Sans';
+
+}
+.video-player{
+	background-color: #2F2F2F;
+	width: 400pt;
+	height:220pt;
 	margin: 0 auto;
+	padding-top: 70pt;
+	margin-top: 5%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.video-player svg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.video-player svg:hover {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -3pt;
+	width: 72pt;
+	height: 72pt;
 }
