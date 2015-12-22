@@ -37,6 +37,10 @@ vertical-align: middle;
 line-height: 90pt;       /* the same as your div height */
 
 }
+.dl-btn:hover{
+	font-family: 'Comic Sans MS';
+
+}
 h1{
 
 	font-family: 'Open Sans';
