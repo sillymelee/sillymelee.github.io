@@ -5,7 +5,7 @@ body {
 
 
 .logo img{
-	margin-top: 100pt;
+	margin-top: 5VH;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -26,7 +26,6 @@ border: 8px solid #2F2F2F;
 border-radius: 21px;
 height: 100pt;
 margin: 0 auto;
-/* DOWNLOAD: */
 font-family: 'Open Sans';
 font-weight: 700;
 font-size: 24px;
@@ -39,7 +38,6 @@ line-height: 90pt;       /* the same as your div height */
 }
 .dl-btn:hover{
 	font-family: 'Comic Sans MS';
-
 }
 h1{
 
@@ -48,6 +46,23 @@ h1{
 	font-size: 24px;
 
 
+}
+h3{
+	text-align: center;
+}
+h3 a:hover{
+	color: #CEC656;
+
+}
+a {
+	/* CHARACTER PREVIEWS: */
+	font-family: 'Open Sans';
+	font-weight: 700;
+	text-align: center;
+	font-size: 24px;
+	color: #CEC656;
+	letter-spacing: 4.8px;
+	line-height: 19.2px;
 }
 
 
@@ -61,7 +76,8 @@ p{
 	height:220pt;
 	margin: 0 auto;
 	padding-top: 70pt;
-	margin-top: 5%;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -79,4 +95,29 @@ p{
 	margin-top: -3pt;
 	width: 72pt;
 	height: 72pt;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	padding-top: 5vh;
+}
+
+.footer li, .footer a{
+
+	font-family: 'Open Sans';
+	font-size: 24px;
+	color: #464646;
+	letter-spacing: 4.8px;
+	line-height: 19.2px;
+	list-style-type: none;
+	display: inline-flex;
+
+}
+
+a:hover{
+	font-family: 'Comic Sans MS';
+
+
 }
