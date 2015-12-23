@@ -102,6 +102,7 @@ p{
 	justify-content: space-around;
 	align-items: baseline;
 	padding-top: 5vh;
+	height: 200pt;
 }
 
 .footer li, .footer a{
